@@ -1,0 +1,37 @@
+{
+  "dimension_aliases": {
+    "channel": "loan_belong_tag",
+    "project": "project_total",
+    "segment_l1": "segment_level_1",
+    "segment_l2": "segment_level_2",
+    "strategy_tag": "strategy_tag"
+  },
+  "dimension_value_maps": {
+    "channel": {
+      "端外生态团队": "online",
+      "线下团队": "offline"
+    },
+    "segment_l1": {
+      "高价值客群": "high_value",
+      "普通客群": "mass"
+    }
+  },
+  "filter_dimensions": {
+    "channel": [
+      "online"
+    ],
+    "project": [
+      "现金贷A",
+      "现金贷B"
+    ],
+    "strategy_tag": [
+      "首贷"
+    ]
+  },
+  "group_by_fields": [
+    "channel",
+    "project",
+    "segment_l1",
+    "segment_l2"
+  ]
+}

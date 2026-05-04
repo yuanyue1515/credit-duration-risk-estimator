@@ -1,0 +1,11 @@
+{
+  "principal": 1000000,
+  "annual_rate": 0.085,
+  "term_months": 24,
+  "payment_frequency_months": 1,
+  "amortization_type": "equal_payment",
+  "default_rate_annual": 0.03,
+  "loss_given_default": 0.45,
+  "prepayment_rate_annual": 0.05,
+  "discount_rate_annual": 0.08
+}

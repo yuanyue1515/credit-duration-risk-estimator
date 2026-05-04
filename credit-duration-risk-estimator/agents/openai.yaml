@@ -1,0 +1,4 @@
+interface:
+  display_name: "Credit Duration Risk"
+  short_description: "Estimate duration and annualized risk."
+  default_prompt: "Use $credit-duration-risk-estimator to estimate duration, WAL, and annualized credit risk for the provided asset data."
